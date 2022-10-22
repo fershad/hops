@@ -1,3 +1,5 @@
+'use strict';
+
 import GreenTrace from "@tgwf/greentrace-cli"
 import polka from "polka"
 // const domainName = "developers.thegreenwebfoundation.org"
