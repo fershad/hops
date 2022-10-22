@@ -37,7 +37,10 @@ try {
 
 
 polka()
-  .get('/:domain', async(req, res) => {
+.get("/", async (req, res) => {
+    res.end("Hello world!")
+})
+  .get('/check/:domain', async(req, res) => {
     const domain = decodeURI(req.params.domain)
     const data = await greentrace(domain)
 
