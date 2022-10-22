@@ -1,0 +1,17 @@
+{
+  "name": "greentrace-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tgwf/greentrace-cli": "^0.2.0",
+    "polka": "^0.5.2"
+  }
+}
